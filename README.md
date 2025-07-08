@@ -45,7 +45,7 @@ General plan for conversion:
 |-------------------------------------------|:--:|---------------------------------------|
 | Innocube3D IDEX Klipper Conversion Kit    | 1  | Check kit contents before starting    |
 | Raspberry Pi 4 (2 GB+)                    | 1  | Pi OS + Klipper installation          |
-| MicroSD cards (16 GB+)                    | 2  | One for Pi, one for Snapmaker board   |
+| MicroSD cards (16 GB+)                    | 2  | One for Pi, one for printer board   |
 | USB-A ⇄ USB-A cable                      | 1  | USB to control board connection       |
 | Zip ties, cable clips                     | —  | Neaten wiring                         |
 | Thermal paste / tape (if swapping hotends)| —  | Optional                              |
