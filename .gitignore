@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ─── Klipper build artifacts ─────────────────────────────────────────
+out/                     # Klipper build output directory
+klipper.bin             # flashed firmware
+klipper.elf             # ELF binaries
+*.hex                   # hex firmware
+*.map                   # linker maps
+
+# ─── Moonraker & Web UI ─────────────────────────────────────────────
+moonraker.log           # Moonraker runtime log
+moonraker.db            # SQLite state
+logs/                   # any other logs
+cache/                  # web UI caches (Mainsail/Fluidd)
+
+# ─── Raspberry Pi / Snapmaker board ─────────────────────────────────
+boot/config.txt.local   # custom Pi boot tweaks
+ssh_config.d/           # Pi SSH snippets
+*.dtbo                  # device tree overlays
+*.overlay               # any overlays
+
+# ─── Editor & temp files ─────────────────────────────────────────────
+.vscode/                # VSCode workspace settings
+.idea/                  # IntelliJ/IDEA
+*.swp                   # Vim swaps
+*~                      # editor temp files
